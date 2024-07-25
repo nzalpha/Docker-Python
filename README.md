@@ -22,3 +22,9 @@
 6) Now when you goto browser and do ipadrsofvmmachine:8000 it throws error as DisallowedHost at /
 Invalid HTTP_HOST header: 'ipadrsofvmmachine:8000'. You may need to add 'ipadrsofvmmachine' to ALLOWED_HOSTS
 7) To fix the above error goto crud folder > crud folder> settings.py. Add the ip addressed in "Allowed Host" field.
+
+# Creating A basic Website in Python Using Django
+1) Create the App called Score( do this inside the project folder which is crud): django-admin startapp score
+2) the View.py will the file where you can write what your landing page shoud have
+3) Modify the urls.py in score and crud folders.
+4) fire  python manage.py runserver 0.0.0.0:8000 and open the browser

@@ -28,3 +28,7 @@ Invalid HTTP_HOST header: 'ipadrsofvmmachine:8000'. You may need to add 'ipadrso
 2) the View.py will the file where you can write what your landing page shoud have
 3) Modify the urls.py in score and crud folders.
 4) fire  python manage.py runserver 0.0.0.0:8000 and open the browser
+
+# Creating Docker File
+1) You would need requirement.txt file having all the mandatory packages like django installed.Libraries and packages in that project, its advisable to have virtual environment so that it takes only needed packages
+You can do this by the following: pip3 freeze -l > requirements.txt
